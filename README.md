@@ -6,7 +6,7 @@ GoAopModule
 [![Minimum PHP Version](http://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg)](https://php.net/)
 [![License](https://img.shields.io/packagist/l/goaop/goaop-zf2-module.svg)](https://packagist.org/packages/goaop/goaop-zf2-module)
 
-The GoAopModule adds support for Aspect-Oriented Programming via Go! AOP Framework for Zend Framework 2 applications.
+The GoAopModule adds support for Aspect-Oriented Programming via Go! AOP Framework for Laminas Framework 2 applications.
 
 Overview
 --------
@@ -30,13 +30,13 @@ GoAopModule can be easily installed with composer. Just ask a composer to downlo
 $ composer require goaop/goaop-zf2-module
 ```
 
-Add the `Go\Zend\Framework` to your list of modules in the config/application.config.php `modules` array:
+Add the `Go\Laminas\Framework` to your list of modules in the config/application.config.php `modules` array:
 ```php
 // config/application.config.php
 
     // This should be an array of module namespaces used in the application.
     'modules' => array(
-        'Go\Zend\Framework',
+        'Go\Laminas\Framework',
         'Application',
     ),
 ```

@@ -6,13 +6,14 @@
  |--------------------------------------------------------------------------
  |
  */
-use Go\Core\AspectContainer;
-use Go\Core\AspectKernel;
-use Go\Core\GoAspectContainer;
-use Go\Zend\Framework\Factory\AspectContainerFactory;
-use Go\Zend\Framework\Factory\AspectKernelFactory;
 
-$basicDirectory = defined('APPLICATION_PATH') ? APPLICATION_PATH : __DIR__ . '/../../../..';
+    use Go\Core\AspectContainer;
+    use Go\Core\AspectKernel;
+    use Go\Core\GoAspectContainer;
+    use Go\Laminas\Framework\Factory\AspectContainerFactory;
+    use Go\Laminas\Framework\Factory\AspectKernelFactory;
+
+    $basicDirectory = defined('APPLICATION_PATH') ? APPLICATION_PATH : __DIR__ . '/../../../..';
 
 $moduleConfig = [
     /*
@@ -94,7 +95,7 @@ $moduleConfig = [
 ];
 
 return [
-    \Go\Zend\Framework\Module::CONFIG_KEY => $moduleConfig,
+    \Go\Laminas\Framework\Module::CONFIG_KEY => $moduleConfig,
 
     'service_manager' => [
         'factories' => [
@@ -103,5 +104,5 @@ return [
         ]
     ],
 
-    \Go\Zend\Framework\Module::ASPECT_CONFIG_KEY => []
+    \Go\Laminas\Framework\Module::ASPECT_CONFIG_KEY => []
 ];

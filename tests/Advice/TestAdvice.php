@@ -1,9 +1,9 @@
 <?php
 
-namespace Go\Zend\Framework\Tests\Advice;
+namespace Go\Laminas\Framework\Tests\Advice;
 
 /**
- * @package Go\Zend\Framework\Tests\Advice
+ * @package Go\Laminas\Framework\Tests\Advice
  */
 class TestAdvice
 {

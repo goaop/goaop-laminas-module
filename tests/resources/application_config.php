@@ -1,11 +1,11 @@
 <?php
 
 $modules = [
-    'Go\Zend\Framework',
+    'Go\Laminas\Framework',
 ];
 
-if (class_exists('Zend\Router\Module')) {
-    $modules[] = 'Zend\Router';
+if (class_exists('Laminas\Router\Module')) {
+    $modules[] = 'Laminas\Router';
 }
 
 return [

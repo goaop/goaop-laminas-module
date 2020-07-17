@@ -2,20 +2,28 @@
     "name": "goaop/goaop-zf2-module",
     "description": "Integration module for Go! AOP Framework",
     "type": "library",
-    "keywords": ["module", "zend", "zf2", "aop", "php", "aspect"],
+    "keywords": [
+        "module",
+        "laminas",
+        "zf2",
+        "aop",
+        "php",
+        "aspect"
+    ],
     "license": "MIT",
     "require": {
         "goaop/framework": "^1.0|^2.0",
-        "zendframework/zend-modulemanager": "^2.0"
+        "laminas/laminas-modulemanager": "^2.0",
+        "laminas/laminas-dependency-plugin": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.0 | ^6.0",
-        "zendframework/zend-mvc": "^2.0 | ^3.0",
-        "zendframework/zend-view": "^2.0",
-        "zendframework/zend-serializer": "^2.0",
-        "zendframework/zend-log": "^2.0",
-        "zendframework/zend-i18n": "^2.0",
-        "zendframework/zend-console": "^2.0",
+        "laminas/laminas-mvc": "^2.0 | ^3.0",
+        "laminas/laminas-view": "^2.0",
+        "laminas/laminas-serializer": "^2.0",
+        "laminas/laminas-log": "^2.0",
+        "laminas/laminas-i18n": "^2.0",
+        "laminas/laminas-console": "^2.0",
         "symfony/console": "^3.0 | ^4.0"
     },
     "suggest": {
@@ -31,15 +39,17 @@
             "email": "blubb0r05+github@gmail.com"
         }
     ],
-    "bin": ["bin/goaop-zf2-warmup"],
+    "bin": [
+        "bin/goaop-zf2-warmup"
+    ],
     "autoload": {
         "psr-4": {
-            "Go\\Zend\\Framework\\" : "src/"
+            "Go\\Laminas\\Framework\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Go\\Zend\\Framework\\Tests\\" : "tests/"
+            "Go\\Laminas\\Framework\\Tests\\": "tests/"
         }
     }
 }

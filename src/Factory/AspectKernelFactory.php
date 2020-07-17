@@ -8,13 +8,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Go\Zend\Framework\Factory;
+namespace Go\Laminas\Framework\Factory;
 
-use Go\Zend\Framework\Kernel\AspectKernel;
-use Go\Zend\Framework\Module;
+use Go\Laminas\Framework\Kernel\AspectKernel;
+use Go\Laminas\Framework\Module;
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\FactoryInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\FactoryInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 class AspectKernelFactory implements FactoryInterface
 {

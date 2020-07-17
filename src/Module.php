@@ -8,13 +8,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Go\Zend\Framework;
+namespace Go\Laminas\Framework;
 
 use Go\Core\AspectContainer;
-use Zend\ModuleManager\Feature\ConfigProviderInterface;
-use Zend\ModuleManager\Feature\InitProviderInterface;
-use Zend\ModuleManager\ModuleEvent;
-use Zend\ModuleManager\ModuleManagerInterface;
+use Laminas\ModuleManager\Feature\ConfigProviderInterface;
+use Laminas\ModuleManager\Feature\InitProviderInterface;
+use Laminas\ModuleManager\ModuleEvent;
+use Laminas\ModuleManager\ModuleManagerInterface;
 
 /**
  * Module for registration of Go! AOP Framework

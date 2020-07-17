@@ -1,19 +1,15 @@
 <?php
 
-namespace Go\Zend\Framework\Tests\Functional;
+namespace Go\Laminas\Framework\Tests\Functional;
 
-use Go\Zend\Framework\Console\Command\WarmupCommand;
+use Go\Laminas\Framework\Console\Command\WarmupCommand;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
-use Symfony\Component\Console\Input\ArgvInput;
-use Symfony\Component\Console\Input\Input;
-use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
- * @package Go\Zend\Framework\Tests\Functional
+ * @package Go\Laminas\Framework\Tests\Functional
  */
 class WarmupTest extends TestCase
 {

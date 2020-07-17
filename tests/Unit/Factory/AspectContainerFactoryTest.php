@@ -1,15 +1,15 @@
 <?php
 
-namespace Go\Zend\Framework\Tests\Unit\Factory;
+namespace Go\Laminas\Framework\Tests\Unit\Factory;
 
 use Go\Core\AspectContainer;
 use Go\Core\AspectKernel;
-use Go\Zend\Framework\Factory\AspectContainerFactory;
+use Go\Laminas\Framework\Factory\AspectContainerFactory;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 use PHPUnit\Framework\TestCase;
-use Zend\ServiceManager\ServiceLocatorInterface;
 
 /**
- * @package Go\Zend\Framework\Tests\Unit\Factory
+ * @package Go\Laminas\Framework\Tests\Unit\Factory
  */
 class AspectContainerFactoryTest extends TestCase
 {
