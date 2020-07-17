@@ -1,11 +1,10 @@
 {
-    "name": "goaop/goaop-zf2-module",
+    "name": "goaop/goaop-laminas-module",
     "description": "Integration module for Go! AOP Framework",
     "type": "library",
     "keywords": [
         "module",
         "laminas",
-        "zf2",
         "aop",
         "php",
         "aspect"
@@ -37,10 +36,14 @@
         {
             "name": "Andreas Frömer",
             "email": "blubb0r05+github@gmail.com"
+        },
+        {
+            "name": "Danny Meyer",
+            "email": "github@ravenc.de"
         }
     ],
     "bin": [
-        "bin/goaop-zf2-warmup"
+        "bin/goaop-laminas-warmup"
     ],
     "autoload": {
         "psr-4": {

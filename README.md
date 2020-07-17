@@ -1,10 +1,10 @@
 GoAopModule
 ==============
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/goaop/goaop-zf2-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/goaop/goaop-zf2-module/?branch=master)
-[![GitHub release](https://img.shields.io/github/release/goaop/goaop-zf2-module.svg)](https://github.com/goaop/goaop-zf2-module/releases/latest)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/goaop/goaop-laminas-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/goaop/goaop-laminas-module/?branch=master)
+[![GitHub release](https://img.shields.io/github/release/goaop/goaop-laminas-module.svg)](https://github.com/goaop/goaop-laminas-module/releases/latest)
 [![Minimum PHP Version](http://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg)](https://php.net/)
-[![License](https://img.shields.io/packagist/l/goaop/goaop-zf2-module.svg)](https://packagist.org/packages/goaop/goaop-zf2-module)
+[![License](https://img.shields.io/packagist/l/goaop/goaop-laminas-module.svg)](https://packagist.org/packages/goaop/goaop-laminas-module)
 
 The GoAopModule adds support for Aspect-Oriented Programming via Go! AOP Framework for Laminas Framework 2 applications.
 
@@ -27,7 +27,7 @@ Installation
 GoAopModule can be easily installed with composer. Just ask a composer to download the bundle with dependencies by running the command:
 
 ```bash
-$ composer require goaop/goaop-zf2-module
+$ composer require goaop/goaop-laminas-module
 ```
 
 Add the `Go\Laminas\Framework` to your list of modules in the config/application.config.php `modules` array:
@@ -135,7 +135,7 @@ $moduleConfig = [
 Defining new aspects
 --------------------
 
-Aspects are services in the ZF2 application and loaded into the AOP container by the integration module after putting them into the `goaop_aspect` section in the `application.config.php file`. Here is an example how to implement a logging aspect that will log information about public method invocations in the module/ directory.
+Aspects are services in the Laminas application and loaded into the AOP container by the integration module after putting them into the `goaop_aspect` section in the `application.config.php file`. Here is an example how to implement a logging aspect that will log information about public method invocations in the module/ directory.
 
 
 Definition of aspect class with pointcut and logging advice
