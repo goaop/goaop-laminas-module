@@ -1,10 +1,10 @@
 GoAopModule
 ==============
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/goaop/goaop-laminas-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/goaop/goaop-laminas-module/?branch=master)
-[![GitHub release](https://img.shields.io/github/release/goaop/goaop-laminas-module.svg)](https://github.com/goaop/goaop-laminas-module/releases/latest)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dannymeyer/goaop-laminas-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/goaop/goaop-laminas-module/?branch=master)
+[![GitHub release](https://img.shields.io/github/release/dannymeyer/goaop-laminas-module.svg)](https://github.com/goaop/goaop-laminas-module/releases/latest)
 [![Minimum PHP Version](http://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg)](https://php.net/)
-[![License](https://img.shields.io/packagist/l/goaop/goaop-laminas-module.svg)](https://packagist.org/packages/goaop/goaop-laminas-module)
+[![License](https://img.shields.io/packagist/l/dannymeyer/goaop-laminas-module.svg)](https://packagist.org/packages/goaop/goaop-laminas-module)
 
 The GoAopModule adds support for Aspect-Oriented Programming via Go! AOP Framework for Laminas Framework 2 applications.
 
