@@ -1,5 +1,5 @@
 {
-    "name": "dannymeyer/goaop-laminas-module",
+    "name": "goaop/goaop-laminas-module",
     "description": "Integration module for Go! AOP Framework",
     "type": "library",
     "keywords": [
